@@ -35,7 +35,7 @@ Here's a basic list of commands:
 |---|----------------|----------------|--------------|--------------------|----------------|
 | 1 | nano           | nano filen.py  | [just type]  | ctrl + o, enter    | ctrl + x       |
 | 2 | vim, vi        | vim filen.py   | [just type]  | esc :w, enter      | esc :q, enter  |
-| 3 | emacs          | emacs filen.py | [just type]  | ctrl-x, xtrl-s     | ctrl-x, ctrl-c |
+| 3 | emacs          | emacs filen.py | [just type]  | ctrl-x, ctrl-s     | ctrl-x, ctrl-c |
  
 
 ---
