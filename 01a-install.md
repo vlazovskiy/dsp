@@ -57,7 +57,7 @@ In the Terminal:
 
 `python3 --version`
 
->> I believe it's version 3.6.3
+>> Version 3.6.3
 
 
  
