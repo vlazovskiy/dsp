@@ -20,7 +20,7 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > pwd -- shows current working directory path
+> > pwd -- shows current working directory path . 
 > > mkdir -- creates a directory
 > > rmdir -- removes non-empty directory
 > > rm -r -- removes any directory
