@@ -30,7 +30,8 @@ Then, I plot the distribution.
 thinkplot.Pmf(pmf)
 thinkplot.Config(xlabel='children in family', ylabel='PMF')
 ```
-![Fig. 1](https://user-images.githubusercontent.com/32041665/34850333-3dee4cf4-f6da-11e7-99c8-97a649db384e.png | width=250) 
+![Fig. 1](https://user-images.githubusercontent.com/32041665/34850333-3dee4cf4-f6da-11e7-99c8-97a649db384e.png) 
+<img src="image" width="40%">
 
 Now I am going to use the function provided by the author to calculate the biased distribution:
 ```python
