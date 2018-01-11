@@ -17,7 +17,6 @@ thinkplot.Pmf(pmf)
 thinkplot.Show(xlabel='random number', ylabel='PMF')
 ```
 <img width="416" alt="fig 3" src="https://user-images.githubusercontent.com/32041665/34853296-d1300f4a-f6e7-11e7-84ba-43a1ff95885e.png">
-
 And also look at the CDF:
 ```python
 cdf = thinkstats2.Cdf(random_numbers)
@@ -26,4 +25,4 @@ thinkplot.Show(xlabel='random number', ylabel='CDF')
 ```
 <img width="401" alt="fig 4" src="https://user-images.githubusercontent.com/32041665/34853299-d570d116-f6e7-11e7-8c29-ef5079fc225a.png">
 
-The ditrsibution usrely looks uniform from both of these graphs!
+The ditrsibution surely looks uniform from both of these graphs!
