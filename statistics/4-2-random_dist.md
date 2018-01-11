@@ -17,9 +17,8 @@ thinkplot.Pmf(pmf)
 thinkplot.Show(xlabel='random number', ylabel='PMF')
 ```
 <img width="416" alt="fig 3" src="https://user-images.githubusercontent.com/32041665/34853296-d1300f4a-f6e7-11e7-84ba-43a1ff95885e.png">
+
 And also look at the CDF:
-
-
 ```python
 cdf = thinkstats2.Cdf(random_numbers)
 thinkplot.Cdf(cdf)
