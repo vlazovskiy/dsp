@@ -30,7 +30,7 @@ Then, I plot the distribution.
 thinkplot.Pmf(pmf)
 thinkplot.Config(xlabel='children in family', ylabel='PMF')
 ```
-<img width="300" alt="fig 1" src="https://user-images.githubusercontent.com/32041665/34850333-3dee4cf4-f6da-11e7-99c8-97a649db384e.png"> 
+<img width="398" alt="fig 1" src="https://user-images.githubusercontent.com/32041665/34850333-3dee4cf4-f6da-11e7-99c8-97a649db384e.png">
 
 Now I am going to use the function provided by the author to calculate the biased distribution:
 ```python
@@ -50,4 +50,11 @@ biased_pmf = BiasPmf(pmf, label='observed')
 thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf, biased_pmf])
 thinkplot.Show(xlabel='children in family', ylabel='PMF')
+```
+<img width="398" alt="fig 2" src="https://user-images.githubusercontent.com/32041665/34850639-8b801a82-f6db-11e7-8f17-bc2c24989ce4.png">
+
+And I can look at their mean.
+```python
+print('mean', pmf.Mean())
+print('biased mean', biased_pmf.Mean())
 ```
