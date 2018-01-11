@@ -57,6 +57,7 @@ And I can look at their mean.
 ```python
 print('mean', pmf.Mean())
 mean 1.02420515504
+
 print('biased mean', biased_pmf.Mean())
 biased mean 2.40367910066
 ```
