@@ -1,3 +1,24 @@
 [Think Stats Chapter 5 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2006.html#toc50) (blue men)
 
-P(A|B) = \frac{P(B|A)P(A)}{P(B)}
+For this problem, I am going to import scipy.stats
+```python
+import scipy.stats
+```
+And use the function provided by the author
+```python
+def EvalNormalCdf(x, mu, sigma):
+    return scipy.stats.norm.cdf(x, loc=mu, scale=sigma)
+```
+Now I can define my parameters
+```python
+mu = 178
+sigma = 7.7
+min_height = 177.5 # 5'10"
+max_height = 185.5 # 6'1"
+```
+And calculate the answer
+```python
+EvalNormalCdf(max_height, mu, sigma) - EvalNormalCdf(min_height, mu, sigma)
+0.36086532777380054```
+Therefore, 36% of US male population can join the Blue Man Group.
+
