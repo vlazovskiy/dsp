@@ -13,13 +13,13 @@ Now I can define my parameters
 ```python
 mu = 178
 sigma = 7.7
-min_height = 177.5 # 5'10"
-max_height = 185.5 # 6'1"
+min_height = 177.8 # 5'10"
+max_height = 185.4 # 6'1"
 ```
 And calculate the answer
 ```python
 EvalNormalCdf(max_height, mu, sigma) - EvalNormalCdf(min_height, mu, sigma)
-0.36086532777380054
+0.34209468294595308
 ```
-Therefore, 36% of the US male population can join the Blue Man Group.
+Therefore, 34% of the US male population can join the Blue Man Group.
 
