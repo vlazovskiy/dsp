@@ -19,6 +19,7 @@ max_height = 185.5 # 6'1"
 And calculate the answer
 ```python
 EvalNormalCdf(max_height, mu, sigma) - EvalNormalCdf(min_height, mu, sigma)
-0.36086532777380054```
+0.36086532777380054
+```
 Therefore, 36% of US male population can join the Blue Man Group.
 
