@@ -21,5 +21,5 @@ And calculate the answer
 EvalNormalCdf(max_height, mu, sigma) - EvalNormalCdf(min_height, mu, sigma)
 0.36086532777380054
 ```
-Therefore, 36% of US male population can join the Blue Man Group.
+Therefore, 36% of the US male population can join the Blue Man Group.
 
