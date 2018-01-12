@@ -88,7 +88,7 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 >> Note: since GitHub does not support LaTex-style formulas, I completed my solution in Typora and took a screenshot of my solution.
 
-<img width="823" alt="elvis twin problem" src="https://user-images.githubusercontent.com/32041665/34864483-5db1cd8c-f729-11e7-859c-dbabaf98cdb0.png">
+>> <img width="823" alt="elvis twin problem" src="https://user-images.githubusercontent.com/32041665/34864483-5db1cd8c-f729-11e7-859c-dbabaf98cdb0.png">
 
 ---
 
