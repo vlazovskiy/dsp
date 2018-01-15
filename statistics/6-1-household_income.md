@@ -85,6 +85,7 @@ thinkplot.Config(xlabel='Household income (log $)',
                ylabel='CDF')
 ```
 <img width="401" alt="fig 12" src="https://user-images.githubusercontent.com/32041665/34930090-949f2376-f97c-11e7-9799-bcc7073e6216.png">
+
 ```python
 sample = np.power(10, log_sample)
 cdf = thinkstats2.Cdf(sample)
@@ -94,6 +95,7 @@ thinkplot.Config(xlabel='Household income ($)',
 ```
 <img width="404" alt="fig 13" src="https://user-images.githubusercontent.com/32041665/34930097-a3016c30-f97c-11e7-8493-f39f5967d756.png">
 Now I will look at the required statistics
+
 ```python
 Median(sample)
 51226.454478940461
@@ -121,6 +123,7 @@ thinkplot.Config(xlabel='Household income (log $)',
                ylabel='CDF')
 ```
 <img width="400" alt="fig 14" src="https://user-images.githubusercontent.com/32041665/34930317-d12c4b10-f97d-11e7-8e02-b6eb3f619ac9.png">
+
 ```python
 sample = np.power(10, log_sample)
 cdf = thinkstats2.Cdf(sample)
@@ -129,6 +132,7 @@ thinkplot.Config(xlabel='Household income ($)',
                ylabel='CDF')
 ```
 <img width="399" alt="fig 15" src="https://user-images.githubusercontent.com/32041665/34930328-dd9104ea-f97d-11e7-965c-7f9be9e80ed9.png">
+
 ```python
 Median(sample)
 51226.454478940461
