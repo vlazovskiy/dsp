@@ -114,7 +114,7 @@ cdf.Prob(Mean(sample))
 ```
 So 66% of the housholds make less than the mean.
 
-2. Now repeat the same with incomes whose upper bound is defined by one billion
+2. Now repeat the same with incomes whose upper bound is defined by ten million
 ```python
 log_sample = InterpolateSample(income_df, log_upper=7.0)
 log_cdf = thinkstats2.Cdf(log_sample)
@@ -149,4 +149,4 @@ PearsonMedianSkewness(sample)
 cdf.Prob(Mean(sample))
 0.8565630665207663
 ```
-So this time 86% of the households make less than the mean.
+So this time 86% of the households make less than the mean. Notably, the mean and the skewness increase dramatically, while Pearson median skewness decreases. Such change in data suggests that we do not have enough information for an accurate assessment.
