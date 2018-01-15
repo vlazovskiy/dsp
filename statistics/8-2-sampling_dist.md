@@ -63,3 +63,10 @@ thinkplot.Show(xlabel="sample size",
 <img width="396" alt="fig 10" src="https://user-images.githubusercontent.com/32041665/34925068-d895f9d6-f95b-11e7-917e-f931d6b9e98f.png">
 
 Expectedly, the standard error decreases as the sample size increases. 
+With n=1000 the CDF is a perfect sigmoid.
+```python
+SimulateSample(1000)
+standard error: 0.0641515610198
+confidence interval: (1.9010066585341892, 2.1134819176104545)
+```
+<img width="393" alt="fig 11" src="https://user-images.githubusercontent.com/32041665/34925183-9343b502-f95c-11e7-8599-70bdbfb91611.png">
