@@ -101,3 +101,4 @@ Spearman = SpearmanCorr(live.agepreg, live.totalwgt_lb)
 Spearman
 0.094610041096582262
 ```
+Both the scatterplots and the correlation coefficient show a very weak relationship between these two variable, almost non-existent. That makes sense because medically speaking the weight of the child should not depend on the mother's age.
