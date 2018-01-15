@@ -95,7 +95,9 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> According to the frequentist definition of probability, only repeatable random events have probabilities, and these probabilities are equal to the long-term frequency of occurrence of the events in question (like the probability of heads or tails coming up in a coin flip). Frequentists don’t attach probabilities to hypotheses or to any fixed but unknown values in general, and they don't rely on prior knowledge. 
+>>
+>> In contrast, Bayesians rely on prior knowledge and use probabilities to represent the uncertainty in any event or hypothesis, even non-repeatable ones. Bayesian statistics is defined roughly the same the general population defines statistics: as the plausability of a proposition or a situation (as in, what is the probability that a candidate wins presidential elections).
 
 ---
 
